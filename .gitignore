@@ -1,0 +1,10 @@
+# Build subdirectories.
+/*build*
+!/build-aux
+!/build_msvc
+
+# Only ignore unexpected patches
+*.patch
+!depends/patches/**/*.patch
+
+/CMakeUserPresets.json
